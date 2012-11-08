@@ -1,3 +1,18 @@
+Welcome to Brackets for Coherent UI!
+-------------------
+
+This is a port of the Brackets code editor to [Coherent UI](http://www.coherent-labs.com).
+To try Brackets on Windows or Linux download a
+[precompiled package](https://github.com/CoherentLabs/brackets/downloads).
+
+If you want to hack on Brackets on Linux or just using Coherent UI, download
+Coherent UI from [here](http://coherent-labs.com/UIDownload/) (The Starter
+version is sufficient), pull the repo directly via git (see [How to Hack on
+Brackets](https://github.com/adobe/brackets/wiki/How-to-Hack-on-Brackets))
+and make a directory junction (symlink) ```www``` to the ```src``` folder.
+
+Below is the official Brackets README.
+
 Welcome to Brackets!
 -------------------
 
