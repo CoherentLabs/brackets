@@ -730,7 +730,7 @@ define(function (require, exports, module) {
         return _handleWindowGoingAway(
             commandData,
             function () {
-                window.close();
+                engine.trigger('OnClose', false);
             },
             function () {
                 // if fail, tell the app to abort any pending quit operation.
